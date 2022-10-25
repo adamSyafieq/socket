@@ -1,0 +1,5 @@
+npm install socket.io-client
+npm install socket.io
+ npm install express@4
+ npm install cors  
+  composer install wisembly/elephant.io  = dari sisi php laravel
