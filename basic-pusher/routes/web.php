@@ -20,5 +20,5 @@ Route::get('/', function () {
 });
 
 Route::get('/message/created', function(){
-    MessageCreated::dispatch('Adams Corps');
+    MessageCreated::dispatch('Testeer');
 });

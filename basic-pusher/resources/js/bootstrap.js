@@ -27,10 +27,8 @@ window.Echo = new Echo({
     forceTLS: true
 });
 
-var nama = "agus";
+
 window.Echo.channel("messages").listen("MessageCreated", (event) => {
-    
-    console.log("test");
-    console.log("tester");
-    console.log(event);
+    let tampil = document.querySelector('.coba');
+    tampil.textContent = "Halo Guys";
 });

@@ -2098,10 +2098,9 @@ window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
   cluster: "ap1",
   forceTLS: true
 });
-var nama = "agus";
-window.Echo.channel("messages").listen("MessageCreated", function (event, name) {
-  console.log("hai");
-  console.log(event);
+window.Echo.channel("messages").listen("MessageCreated", function (event) {
+  var tampil = document.querySelector('.coba');
+  tampil.textContent = "Halo Guys";
 });
 
 /***/ }),
